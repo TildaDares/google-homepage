@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#menu-button {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-right {
+    display: inline-flex;
+    list-style-type: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li.nav-right:hover,
+a.links:hover {
+    text-decoration-line: underline;
+}
+
+.nav-right {
+    float: right;
+    padding: 17px 10px 0 0;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-button {
+    margin-top: -5px;
+}
+
+#nav-account {
+    width: 50px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    padding-top: 100px;
+    width: 520px;
+    height: auto;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.search-bar {
+    background-color: white;
+    background-image: url('C:/Users/TILDA/Documents/the_odin_project/google-homepage/images/IMG_20200418_091029.jpg'), url('C:/Users/TILDA/Documents/the_odin_project/google-homepage/images/IMG_20200418_091046.jpg');
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: left 3px, right;
+    width: 680px;
+    height: 42px;
+    border: 1px ridge rgba(0, 0, 0, 0.151);
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: none;
+    text-indent: 40px;
+}
+
+.bar:hover input {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type='search']::-webkit-search-cancel-button {
+    margin-right: 50px;
+}
+
+.gs-ifl-buttons {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.gs-buttons {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px hidden black;
+    background-color: rgba(220, 220, 220, 0.445);
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+button.gs-buttons:hover {
+    border: 1px solid rgba(135, 207, 235, 0.726);
+}
+
+button.gs-buttons:active {
+    background-color: skyblue;
+}
+
+.languages {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.languages p {
+    margin-right: 10px;
+}
+
+.languages-link {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.container {
+    min-height: 100%;
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 40px;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    position: relative;
+    height: 80px;
+    margin-top: -80px;
+    clear: both;
+    bottom: 0;
+    /* padding-left: 27px; */
+}
+
+.country p {
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.country {
+    height: 35px;
+}
+
+.horizontal-line {
+    width: 99.9%;
+    border: .5px solid rgba(0, 0, 0, 0.123);
+}
+
+.footer1-2 div {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footer-left a,
+.footer-right a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-left {
+    padding-left: 20px;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 28px;
+}
