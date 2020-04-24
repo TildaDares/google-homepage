@@ -285,7 +285,7 @@
     }
     
     .captions {
-        margin-top: 80px;
+        margin-top: 70px;
         padding-right: 10px;
         padding-left: 15px;
     }
@@ -301,12 +301,12 @@
     }
     
     .captions3 {
-        margin-top: 80px;
+        margin-top: 70px;
         padding-right: 0;
     }
     
     .spacing {
-        padding-top: 20px;
+        padding-top: 30px;
     }
     
     table tr td {
@@ -324,10 +324,6 @@
         padding-right: 10px;
     }
     
-    table tr td a {
-        color: black;
-    }
-    
     table tr th {
         border: 1px solid rgba(0, 0, 0, 0.274);
         text-align: left;
@@ -342,7 +338,7 @@
     
     table {
         width: 750px;
-        margin-top: 40px;
+        margin-top: 50px;
         border-radius: 30px;
     }
     
