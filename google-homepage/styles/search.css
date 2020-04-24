@@ -205,8 +205,7 @@
     
     .blue-texts {
         color: blue;
-        font-weight: lighter;
-        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
     }
     
     #helpful {
@@ -277,6 +276,7 @@
     .youtube-texts a,
     .youtube-texts3 a {
         color: blue;
+        font-size: large;
     }
     
     .caption {
@@ -301,7 +301,7 @@
     }
     
     .captions3 {
-        margin-top: 110px;
+        margin-top: 80px;
         padding-right: 0;
     }
     
@@ -432,6 +432,11 @@
     .webflow {
         width: 100px;
         padding-top: 30px;
+    }
+    
+    .logo-captions {
+        color: blue;
+        font-size: medium;
     }
     
     .uppercaptions {
