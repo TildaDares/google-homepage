@@ -56,7 +56,7 @@ li a {
 
 .logo img {
     padding-top: 100px;
-    width: 520px;
+    width: 450px;
     height: auto;
 }
 
@@ -69,7 +69,7 @@ li a {
 
 .search-bar {
     background-color: white;
-    background-image: url('C:/Users/TILDA/Documents/the_odin_project/google-homepage/images/IMG_20200418_091029.jpg'), url('C:/Users/TILDA/Documents/the_odin_project/google-homepage/images/IMG_20200418_091046.jpg');
+    background-image: url('../images/IMG_20200418_091029.jpg'), url('../images/IMG_20200418_091046.jpg');
     background-repeat: no-repeat;
     background-size: 6%;
     background-position: left 3px, right;

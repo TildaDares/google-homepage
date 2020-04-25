@@ -164,9 +164,12 @@
         padding-bottom: 40px;
     }
     
+    .search-results {
+        width: 750px;
+    }
+    
     .search-results,
     .country {
-        display: grid;
         margin-top: 10px;
         margin-left: 305px;
         margin-right: 305px;
@@ -175,15 +178,15 @@
     .no-of-results {
         color: rgba(0, 0, 0, 0.651);
         padding-bottom: 17px;
-        font-size: small;
+        font-size: 1vw;
     }
     
     .space,
     .results-border {
         line-height: 30px;
-        font-size: medium;
+        font-size: 1vw;
         color: rgba(0, 0, 0, 0.781);
-        width: 750px;
+        width: 100%;
     }
     
     .snips {
@@ -205,7 +208,7 @@
     
     .blue-texts {
         color: blue;
-        font-size: 24px;
+        font-size: 1.5vw;
     }
     
     #helpful {
