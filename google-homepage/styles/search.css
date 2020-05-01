@@ -150,7 +150,7 @@
         display: inline-flex;
     }
     
-    #icon {
+    .icon {
         padding-right: 6px;
         opacity: 50%;
     }
