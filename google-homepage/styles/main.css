@@ -105,13 +105,15 @@ input[type='search']::-webkit-search-cancel-button {
     background-color: rgba(220, 220, 220, 0.445);
     border-radius: 5px;
     margin-left: 6px;
+    text-decoration: none;
+    color: black;
 }
 
-button.gs-buttons:hover {
+.gs-buttons:hover {
     border: 1px solid rgba(135, 207, 235, 0.726);
 }
 
-button.gs-buttons:active {
+.gs-buttons:active {
     background-color: skyblue;
 }
 
